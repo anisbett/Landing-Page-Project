@@ -57,7 +57,7 @@ h1 {
     font-weight: bolder;
     margin-bottom: auto;
 }
-a, .hero-text, button, .action-text {
+a, .hero-text, button, .action-text, .img-description {
     font-size: 18px;
         color: #E5E7EB;
 }
@@ -128,4 +128,38 @@ h4 {
 
 .action-text {
     margin-right: auto;
+}
+
+.random-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    border: #3882F6 4px solid;
+    height: 75px;
+    width: 75px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
 }
