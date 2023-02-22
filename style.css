@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-.greeting-container {
+.greeting-container,.call-to-action-container, .author, .quote {
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -57,7 +57,7 @@ h1 {
     font-weight: bolder;
     margin-bottom: auto;
 }
-a, .hero-text, button {
+a, .hero-text, button, .action-text {
     font-size: 18px;
         color: #E5E7EB;
 }
@@ -74,4 +74,58 @@ button {
 .hero-text {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    display: flex;
+}
+
+.call-btn {
+    border: #F9FAF8 solid 2px;
+}
+
+h4 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0px;
+
+}
+.author {
+    align-self: flex-end;
+}
+
+.action-text {
+    margin-right: auto;
 }
